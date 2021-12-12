@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let  position = 0;
-    const slidesToShow = 4;
+    const slidesToShow = (window.innerWidth * 0,9) /itemWidth;
     const slidesToScroll = 1;
     const container = $('.slider__container');
     const track = $('.slider__track');
