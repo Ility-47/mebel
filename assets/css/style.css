@@ -1,0 +1,305 @@
+/*обнуление*/
+* {padding: 0;margin: 0;border: 0;}
+  *, *:before, :after {-webkit-box-sizing: border-box;box-sizing: border-box;}  
+  :focus, :active {outline: none;}  
+  a:focus, a:active {outline: none;} 
+  nav, footer, header, aside {display: block;} 
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 100%;} 
+  input, button, textarea {font-family: inherit;}  
+  input::-ms-clear {display: none;}  
+  button {cursor: pointer;}
+  button::-moz-focus-inner {padding: 0;border: 0;}
+  a, a:visited {text-decoration: none;}
+  a:hover {text-decoration: none;color: #9AA8b1;transition: .7s;}
+  ul li {list-style: none;}
+  img {vertical-align: top;}
+  h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: inherit;}
+/*конец обнуления*/
+.container{
+    margin: 0 auto;
+    width: 1341px;
+}
+.container a:hover{
+    color:  #9AA8b1;
+}
+.basic__btn a:hover{color:  #9AA8b1;}
+/*header*/
+.header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    text-transform: uppercase;
+}
+.header a{
+    color: black;
+    font-size: 13px;
+}
+.header__left{
+    margin-right: auto;
+    display: flex;
+}
+
+.left__item1{
+    padding-left: 25px;
+}
+
+.header__mid{
+    margin: 0 auto;
+}
+.header__right{
+    margin-left: auto;
+}
+/*FRAME*/
+.frame{
+    width: 100%;
+    height: auto;
+    background-image: url('../image/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+}
+.frame.second{
+    background-image: url('../image/Rectangle2.png');
+}
+.frame__wrapper{
+    margin: 0 auto;
+    padding: 188px 0 270px 0;
+    color: #fff;
+}
+.basic{
+    width: 58%;
+    margin: 80px auto 0;
+    text-align: center;
+}
+.basic.foot{margin: 120px auto;}
+.basic.darkest{padding: 120px 0 60px 0 ;}
+.basic__title{
+    font-size: 43px;
+    padding-bottom: 25px;
+}
+.basic__title.second{font-size: 66px;}
+.basic__title.darkest{color: #fff;}
+.basic__subtitle{
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 10px 0 25px 0;
+    color: #A0A0A0;
+}
+.basic__subtitle.second{font-size: 14px;}
+.basic__subtitle.darkest{color: #fff;}
+.basic__btn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.frame a{
+    color: #fff;
+}
+
+/*compы*/
+.comp{
+    padding: 80px 0 130px 0;
+    display: flex;
+    width: 100%;
+}
+.comp__image1{
+    text-align: left;
+}
+.comp__image1 img{max-width: 99%; object-fit: cover;}
+.comp__image2{
+    text-align: right;
+}
+.comp__image2 img{max-width: 99%; object-fit: cover;}
+.comp__title{
+    font-size: 27px;
+    text-align: center;
+    padding: 40px 0 25px 0;
+}
+.comp__btn{
+    text-align: center;
+    font-size: 13px;
+}
+.comp__btn a{color: #000;}
+
+/*slider*/
+
+.slider{
+    width: 100%;
+    padding: 80px 0 40px 0 ;
+    display: flex;
+}
+.slider__track{
+    width: 100%;
+    display: flex;
+    transition: 2s;
+}
+.slider__item{
+    width: 23%;
+}
+.slider__subtitle{
+    font-size: 13px;
+    color: #9AA8b1;
+    text-align: left;
+    padding: 15px 0 10px 0;
+}
+.slider__price{
+    font-size: 13px;
+    color: #9AA8b1;
+    text-align: left;
+}
+.slider__container{
+    z-index: 15;
+    overflow: hidden;
+}
+.button{
+    padding: 30px;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.button__sl{
+    text-align: center;
+    font-size: 24px;
+    color: #9AA8b1;
+    width: 155px;
+    height: 40px;
+    border-radius: 30px;
+    line-height: 35px;
+    background-color:#dee1e2 ;
+    border: 2px solid #9AA8b1;
+    cursor: pointer;
+}
+.button__sl:hover{
+    background-color: #323638;
+    border: 2px solid #b0b0b1;
+    color: #fff;
+    transition: .7s;
+}
+.button__sl.prew{margin-right: auto;}
+.button__sl.next{margin-left: auto;}
+.button__next{
+    font-size: 24px;
+    color: #9AA8b1;
+}
+
+/*gallery*/
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 25px;
+}
+
+.dark{
+    width: 100%;
+    background-color:  #9AA8b1;
+}
+/*small element*/
+.house{
+    text-align: center;
+}
+.house img{
+    max-width: 78%;
+    object-fit: cover;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    margin: 39px auto 0 ;
+}
+.upper{
+    display: flex;
+    width: 100%;
+}
+.list{
+    padding-top: 77px;
+    margin-right: auto;
+}
+.list__item{
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+.list__item a{color: #000;}
+
+.sign{
+    margin-left: auto;
+}
+.sign__title{
+    padding: 10px 0 23px 0;
+    font-size: 22px;
+}
+.sign__text{
+    font-size: 14px;
+    width: 30%;
+    color:  #A0A0A0;
+}
+.downer{
+    display: flex;
+    width: 100%;
+    padding: 25px 0 20px 0;
+}
+.downer__item{
+    margin-left: auto;
+    color: #A0A0A0;
+}
+@media(max-width: 1200px){
+    .container{
+        width: 1141px;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .basic__title{font-size: 36px;}
+    .basic__title.second{font-size: 40px;}
+}
+
+@media(max-width: 900px){
+    .container{
+        width: 841px;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .basic__title{font-size: 28px;}
+    .basic__title.second{font-size: 32px;}
+    .list{padding-top: 55px;}
+    .list__item{font-size: 18px; padding-bottom: 15px;}
+}
+
+@media(max-width: 770px){
+    .container{
+        width: 641px;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .comp{display: block;}
+    .comp__btn{padding-bottom: 25px;}
+    .basic__title{font-size: 22px;}
+    .basic__title.second{font-size: 28px;}
+    .list{padding-top: 44px;}
+    .list__item{font-size: 16px; }
+}
+
+@media(max-width: 540px){
+    .container{
+        width: 441px;
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .basic__title{font-size: 18px;}
+    .basic__title.second{font-size: 22px;}
+    .list{padding-top: 33px;}
+    .list__item{font-size: 14px;}
+}
