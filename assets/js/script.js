@@ -3,11 +3,13 @@ $(document).ready(function() {
     let slidesToShow = 4;
     if (window.innerWidth < 900){
         slidesToShow = 3;
-    }else if(window.innerWidth < 700){
+    };
+    if(window.innerWidth < 700){
         slidesToShow = 2;
-    }else if(window.innerWidth < 500){
+    };
+    if(window.innerWidth < 500){
         slidesToShow = 1;
-    }
+    };
     const slidesToScroll = 1;
     const container = $('.slider__container');
     const track = $('.slider__track');
